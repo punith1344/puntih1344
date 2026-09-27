@@ -82,3 +82,4 @@ class HelpCog(commands.Cog):
 async def setup(bot: commands.Bot):
     bot.help_command = CustomHelp()
     await bot.add_cog(HelpCog(bot))
+# this help.py made by ai git coplilot :) 
