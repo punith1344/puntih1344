@@ -50,3 +50,5 @@ python main.py
 ## Notes
 
 This project is a small starter bot and can be expanded with more commands and cogs.
+
+this code have so many bug i will fix as soon as possible 
