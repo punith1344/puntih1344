@@ -3,7 +3,7 @@ from discord.ext import commands
 from discord import app_commands
 
 
-class CustomHelp(commands.HelpCommand):
+class CustomHelp(commands.CustomHelp):
     def __init__(self):
         super().__init__(verify_checks=False)
 
@@ -83,3 +83,9 @@ async def setup(bot: commands.Bot):
     bot.help_command = CustomHelp()
     await bot.add_cog(HelpCog(bot))
 # this help.py made by ai git coplilot :) 
+
+
+class help(@commands.command(name = "hellp", aliases=["help 1"])
+async def  commandName(self, ctx:commands.Context):
+    await ctx.send("type hello "))
+    
