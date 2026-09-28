@@ -88,4 +88,8 @@ async def setup(bot: commands.Bot):
 class help(@commands.command(name = "hellp", aliases=["help 1"])
 async def  commandName(self, ctx:commands.Context):
     await ctx.send("type hello "))
+
+async def embed=discord.Embed(title="one", description="let ", color=0xff0000)
+embed.add_field(name="field", value="6", inline=False)
+await ctx.send(embed=embed)
     
